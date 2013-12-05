@@ -5695,13 +5695,15 @@ h1 {
 .navbar-inner .brand {
   margin-left: 0px;
   color: #000;
+  text-transform: uppercase;
+  font-weight: 900;
 }
 .navbar-fixed-top .navbar-inner,
 .navbar-static-top .navbar-inner {
-  border-bottom: 1px solid #CCC;
+  border-bottom: 1px solid #e5e5e5;
 }
 .navbar .nav > li {
-  border-left: 1px solid #CCC;
+  border-left: 1px solid #e5e5e5;
 }
 .navbar .nav > li > a {
   color: #000;
@@ -5715,10 +5717,11 @@ h1 {
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus {
-  border: 3px solid #000;
-  color: #FFF;
+  border: 3px solid #e5e5e5;
+  color: #000;
   text-decoration: none;
   background-color: #000;
+  background-color: #e5e5e5;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
