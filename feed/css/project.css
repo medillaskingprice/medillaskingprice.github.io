@@ -1,114 +1,118 @@
-container {
-	background-color: #969697;
+html, body{
+	width:100%;	
 }
-section {
-	margin-top: 20px;
-	padding-top: 20px;
+.preview {
+padding-top: 56px;
+}
+video {
+	top:0;
+	left:0;
+	max-width:100%;
+	margin-top:-3%;
+	width:100%;
+}
+.container {
 	font-family: 'Carrois Gothic', sans-serif;
 }
-section.section-break {
-	margin-top: 60px;
-	padding-top: 100px;
+section {
+	padding-top: 20px;
+	font-size:20px;	
 }
-.storytitle {
-	padding-bottom: 20px;
+.deck{
+	margin-top:6%;
+	margin-bottom:8%;
+}
+.deck .container{
+	font-family: 'Brawler', serif;
+	font-size: 35px;
+	line-height:125%;
+}
+.byline{
+	font-size:20px;
+	color:gray;
+}
+.robbins, .kestel {
+	background-color: #E5D77D;
+	box-shadow: 2px 2px 5px #999;
+	color: black;
+}
+.wilson, .stas {
+	background-color: #CFCFD2;
+	box-shadow: 2px 2px 5px #999;
+	color:black;
+}
+.stas{
+	margin-bottom: 5%;
+}
+.sectionHed{
+	position: relative;
+	margin-bottom:0;
+}
+.robbins .title {
+	position: absolute;
+	bottom:0;
+	right:5%;
+	font-size: 7em;
+	color: white;
+	text-align: left;
+	font-weight:900;
+	font-family: 'Brawler', serif;
+	
+}
+.kestel .title, .stas .title, .wilson .title{
+	position: absolute;
+	bottom:0;
+	left:5%;
+	font-size: 7em;
+	color: white;
+	text-align: left;
+	font-weight:900;
+	font-family: 'Brawler', serif;
+
+}
+.firstWord, .thirdWord{
+	font-size:.4em;
+}
+.fourthWord{
+	margin-top:-8%;
+}
+.stas .thirdWord {
+	margin-left: 5%;
+}
+.wilson .fourthWord, .robbins .fourthWord{
+	margin-top:-6%;
+	}
+.leadText{
+	font-size:26px;
+	margin-top: 2%;
+	font-weight:600;
+	line-height:125%;
+}
+.unlikelyMarriage .leadText, .unstableUnion .leadText, .unsatisfiedPartner .leadText{
+	margin-top:-1%;
+	}
+.leadPhoto{
+	max-width:100%;
+	margin-top:-2%;
+	width:100%;
+}
+.titleInfo{
+	font-family: 'Brawler', serif;
+	font-size:4em;
 	text-align: center;
 }
-.storytitle h1 {
-	text-transform: uppercase;
-	margin-bottom:0px;
-}
-p.lead {
-	font-size:24px;
-	line-height:36px;
-}
-blockquote.strong-quote {
-	padding:0;
-	margin:0;
-	border:none;
-	margin-top:30px;
-	margin-bottom:30px;
-}
-blockquote.strong-quote p{
-	font-size:30px;
-	line-height:38px;
-	font-weight: bold;
-}
-.my-background-example {
-	padding: 20px;
-	background-image: url(http://farm9.staticflickr.com/8501/8316081118_da9eb027f8_o.jpg);
-	background-repeat: no-repeat;
-	background-size:cover;
-	-webkit-border-radius: 6px;
-	   -moz-border-radius: 6px;
-	        border-radius: 6px;
-}
-.carousel-caption {
-	position: static;
-}
-div.subnav {
-	background-color: #969697;
-}
-h2 {
+blockquote{
+	font-size: 34px;
 	font-family: 'Brawler', serif;
-	padding-left: 10px;
-}
-.leadPhoto{
-	position: relative;
-}
-.sectionLeadRow{
-	background-color: #DBC95C;
-}
-.sectionTitle{
-	position: absolute;
-	bottom: 10%;
-	left: -3%;
-}
-.dropCap{
-	float: left;
-	font-size: 450%;
-	background-color: #DBC95C;
-	height: 10%;
-	margin-top: 2%;
-	max-width: 100%;
-}
-.dropCap.info{
-	background-color: #d6d0aa;
-}
-
-.photoStack{
-	padding:2px;
-}
-
-.leftQuote{
+	line-height:125%;
 	border-left: none;
-	border-right: 5px solid #dbc762;
-	padding: 0 15px 0 0px;
 }
-.sectionLead{
-	margin-top: 2%;
+.bQuoteAttr{
+	font-size: 24px;
 }
 .belowPhoto{
-	margin-top: 4%;
+	margin-top:2%;
 }
-blockquote{
-	font-size: x-large;
-}
-
-.infoBox{
-	height: 72px;
-	background-color: #D6D0AA;
-	position: absolute;
-	opacity: inherit;
-	left: 0%;
-	top: -10%;
-}
-.unlikelyMarriage{
-	margin-top: 5%;
-}
-.photoRow{
-	margin-top:18%;
-}
-.row.info{
-	margin-bottom:5%;
-}
+.last{
+	margin-bottom:10%;
+}	

@@ -1,1 +1,0 @@
-//$('.my-sticky-element').waypoint('sticky');

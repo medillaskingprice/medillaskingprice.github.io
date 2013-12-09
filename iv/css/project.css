@@ -1,0 +1,311 @@
+
+p.byline {
+	text-align:left;
+	color:#000000;
+	font-size:18px;
+	line-height:18px;
+	font-weight:normal;
+}
+
+#facegrid .box .fade-caption, #facegrid .box .scale-caption  {
+	opacity: 0;
+	text-align: left;
+	padding: 15px;
+	width: 19.5em;
+	height: 19em;
+}
+
+#facegrid .box .caption p.credit {
+	font-style: italic;
+}
+
+#facegrid .box .caption {
+
+	background-color: rgba(0,0,0,0.8);
+	position: absolute;
+	color: #fff;
+	z-index: 100;
+		-webkit-transition: all 300ms ease-out;
+		-moz-transition: all 300ms ease-out;
+		-o-transition: all 300ms ease-out;
+		-ms-transition: all 300ms ease-out;	
+		transition: all 300ms ease-out;
+}
+#facegrid .box {
+	position: relative;
+	border:none;
+	margin-bottom:15px;	
+}
+#facegrid .box .caption {
+	display:none;
+	font-size:11px;
+	font-weight:normal;
+}
+
+#facegrid .box:hover .caption {
+	display:block;
+}
+
+/** Fade Caption :hover Behavior **/
+#facegrid .box:hover .fade-caption, #facegrid .box:hover .scale-caption  {
+	opacity: 1;
+}
+
+#ivphoto {
+	text-align:center;
+	padding-bottom:10em;
+}
+
+caption {
+	/*coordinated marking to match cell's padding*/
+	margin-bottom:.5em;
+	/*centered so it doesn't blend in to other content*/
+	text-align:center;
+}
+
+.container {
+	/*width: auto; */
+}
+
+section {
+	margin-top: 0em;
+	padding-top: 1.25em;
+	width: 100%;
+}
+
+section#leadtext {
+	background-color:#812614;
+	text-align:center;
+	padding-top:10em;
+	padding-bottom:10em;
+}
+
+section#photos {
+	background-color:#000000;
+	padding-top:10em;
+	padding-bottom:10em;
+}
+
+section.section-break {
+	margin-top: 3.75em;
+	padding-top: 6.25em;
+}
+
+.testtubes {
+	background-image: url('../img/testtubes2.jpg');
+	padding: 20% 0;
+	background-size: cover;
+    background-attachment: fixed;
+	font-family:"Ubuntu Mono", sans-serif;
+	font-weight:700;
+	font-size:3em;
+    text-align: center;
+	color:#FFFFFF;
+}
+
+.sciencecontainers {
+	background-image: url('../img/sciencecontainers.jpg');
+	padding: 20% 0;
+	background-size: cover;
+    background-attachment: fixed;
+	font-family:"Ubuntu Mono", sans-serif;
+	font-weight:700;
+	font-size:3em;
+	text-align:center;
+	color:#FFFFFF;
+}
+
+.gloves {
+	background-image: url('../img/gloves.jpg');
+	padding: 20% 0 20% 0;
+	background-size: cover;
+    background-attachment: fixed;
+	font-family:"Ubuntu Mono", sans-serif;
+	font-weight:700;
+	font-size:3em;
+	text-align:center;
+	color:#FFFFFF;
+}
+
+.writing {
+	background-image: url('../img/writing.jpg');
+	padding: 20% 0;
+	background-size: cover;
+    background-attachment: fixed;
+	font-family:"Ubuntu Mono", sans-serif;
+	font-weight:700;
+	font-size:3em;
+	text-align:center;
+	color:#FFFFFF;
+}
+
+.atlas {
+	background-image: url('../img/emptylab.jpg');
+	padding: 20% 0;
+	background-size: cover;
+    background-attachment: fixed;
+	font-family:"Ubuntu Mono", sans-serif;
+	font-weight:700;
+	font-size:3em;
+	text-align:center;
+	color:#FFFFFF;
+}
+
+
+
+.storytitle {
+	padding-bottom: 1.25em;
+	text-align: center;
+}
+.storytitle #line1 h1 {
+	text-transform:uppercase;
+	margin-bottom:0em;
+	font-family:"Ubuntu Mono", sans-serif;
+	font-weight:700;
+	font-size:6.4em;
+	text-align:center;
+	color:#FFFFFF;
+}
+
+.storytitle #line2 h1 {
+	text-transform:uppercase;
+	margin-bottom:0em;
+	font-family:"Ubuntu Mono", sans-serif;
+	font-weight:700;
+	font-size:6.4em;
+	text-align:center;
+	color:#F79F81;
+}
+
+a:link {
+	color:#000000;
+}
+
+a:hover {
+	color:#F79F81;
+}
+
+p {
+	font-size:1.275em;
+	line-height:1.5em;
+}
+
+p.caption {
+	font-size:0.9em;
+	text-align:right;
+}
+
+p.lead {
+	font-size:1.975em;
+	line-height:0.9em;
+	font-family:"Ubuntu Mono", sans-serif;
+	font-weight:400;
+	color:#FFFFFF;
+	text-align:left;
+	padding-top:2em;
+}
+
+p.first {
+	font-size:1.975em;
+	line-height:1.3em;
+	font-family:"Arial", sans-serif;
+	font-weight:400;
+	color:#545251;
+	padding-top:1.4em;
+}
+
+
+p.endsign {
+	font-family:"Wingdings";
+	text-align:center;
+}
+
+
+h2{
+	font-family:"Ubuntu Mono", sans-serif;
+	font-weight:700;
+	font-size:3em;
+	text-transform:uppercase;
+	text-shadow: 2px 2px #000000;
+	letter-spacing: -5px;
+}
+
+h3{
+	font-family:"Arial", sans-serif;
+	font-size:1.5em;
+	text-align: center;
+}
+
+h3{
+	font-size:1.5em;
+	font-weight:bold;
+}
+
+h4{
+	font-size:1em;
+	font-weight:bold;
+}
+	
+blockquote.strong-quote {
+	padding:0;
+	margin:0;
+	border:none;
+	margin-top:1.8em;
+	margin-bottom:1.8em;
+	color:#812614;
+	text-align:right;
+	line-height:1em;
+}
+blockquote.strong-quote p{
+	font-size:1.8em;
+	line-height:1.2em;
+	font-weight: bold;
+	color:#812614;
+	text-align:left;
+	border:none;
+	padding-bottom:0.5em;
+}
+
+blockquote.strong-quote-number p{
+	font-size:4em;
+	font-weight:400;
+	color:#1A177D;
+	border:none;
+	text-align:center;
+}
+blockquote.strong-quote-number p.digit{
+	font-size:9em;
+	font-weight:bold;
+	color:#1A177D;
+	border:none;
+	line-height:0.7em;
+	text-align:center;
+}
+blockquote.strong-quote-number p.digit2{
+	font-size:8em;
+	font-weight:bold;
+	color:#1A177D;
+	border:none;
+	line-height:0.7em;
+	text-align:center;
+}
+
+blockquote.strong-quote-number {
+	color:#1A177D;
+	border:none;
+	line-height:0.7em;
+	text-align:center;
+}
+
+.my-background-example {
+	padding: 1.25em;
+	background-image: url(http://farm9.staticflickr.com/8501/8316081118_da9eb027f8_o.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	-webkit-border-radius: 0.375em;
+	   -moz-border-radius: 0.375em;
+	        border-radius: 0.375em;
+}
+.carousel-caption {
+	position: static;
+}
