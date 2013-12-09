@@ -1,0 +1,682 @@
+* {
+-webkit-font-smoothing:antialiased;
+-moz-font-smoothing:antialiased;
+font-smoothing: antialiased;
+}
+
+@font-face {
+font-family: Impact Label src: url('Impact Label.ttf');
+}
+
+
+
+/*Photos and Videos*/
+
+video {
+float: right;
+width:566px;
+height:370px;
+background:transparent url('miller1.jpg') no-repeat 0 0;
+margin-left:1em;  
+padding-bottom: 1em;
+}
+
+/*video#video_background {
+position: absolute;
+bottom: 0px; 
+right: 0px; 
+min-width: 100%; 
+min-height: 100%; 
+width: 900px; 
+height: auto; 
+z-index: -1000; 
+overflow: hidden; 
+zoom:.5;
+}
+*/
+
+img.beer-sidebar {
+margin-left:1.5em;
+transition:  2s;
+-webkit-transition:  2s;
+}
+
+img.beer-sidebar:hover {
+-transform:rotate(45deg);
+-webkit-transform:rotate(45deg);
+}
+
+img.klisch-mug {
+position: relative;
+top: 216px;
+z-index: 1;
+right: -35px;
+}
+
+ 
+img.mccabe-mug {
+position: relative;
+top: 219px;
+z-index: 1;
+left: 371px;
+}
+
+img.gilbert-mug {
+position: relative;
+top: 200px;
+z-index: 1;
+left: 362px;
+}
+
+
+img {
+border-radius: 5px;
+}
+
+img.logo {
+width: 400px;
+}
+
+.img-circle {
+opacity: .75;
+transition: 0.5s all;
+-moz-transition: 0.5s all;
+-webkit-transition: 0.5s all;
+border: 10px solid #171716;
+-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+background: white;
+}
+
+.img-circle:hover {
+opacity: 1;
+transform: scale(1.1);
+-webkit-transform: scale(1.1);
+}
+
+/*End Photo and Video*/
+
+
+
+body {
+margin: 0 auto;
+color: #000000;
+}
+
+.container {
+padding-top: 3em;
+}
+
+.intro-text {
+color: rgb(0, 0, 0);
+background-color: rgba(255, 255, 255, 0.8);
+padding: 3%;
+position:relative;	
+font-size: 1.1em;
+line-height: 1.5em;
+margin-left: 3em;
+font-family: fjalla one;
+}
+
+.beerTitle {
+color: rgb(0, 0, 0);
+background-color: rgba(255, 255, 255, 0.8);
+left:738px;
+width: 20%;
+top:346px;
+position:relative;
+}
+
+
+/*Spans*/
+
+span {
+font-size: 50px;
+}
+
+.span2 {
+float:right;
+}
+
+.span2 p{
+font-family: Fjalla One;
+}
+
+span.the {
+text-shadow: 2px 5px 3px #000000;
+font-size: 70px;	
+}
+
+span.emphasis {
+color:#4f0404;;
+font-size: 50px;
+}
+
+.span3 {
+float:right;
+border-left:8px double #fdce6e;
+border-top:8px double #fdce6e;
+border-bottom:8px double #fdce6e;
+padding: 0.8em 0.8em 0.2em 0.8em;
+opacity: .5;
+}
+
+.span3:hover {
+opacity: 1;
+}
+
+.span12 {
+padding-bottom: 5em;
+}
+
+.span9.offset1 {
+padding-bottom: 3em;
+padding-left:3em;
+}
+
+.span4 {
+font-size: 23px;
+}
+
+
+#lakefront-span5 {
+padding-left: 12em;
+}
+
+#lakefront-span4 {
+position: relative;
+right: 40px;
+top: 43px;	
+}
+
+#miller-span5 {
+padding-left: 12em;
+}
+
+#miller-span4 {
+position: relative;
+right: 39px;
+bottom: 3px;
+}
+
+
+#mkb-span5 {
+padding-left: 12em;
+}
+
+#mkb-span4 {
+position: relative;
+right: 38px;
+bottom:4px;
+}
+
+#temperance-span5 {
+padding-left: 14em;
+
+}
+
+#temperance-span4 {
+position: relative;
+right: 78px;
+top:49px;
+}
+
+
+#pollyanna-span5 {
+padding-left: 12em;
+}
+
+#pollyanna-span4 {
+position: relative;
+right: 68px;
+top:37px;
+}
+
+/*End spans*/
+
+p {
+font-size: .9em;
+font-family: 'Lustria', serif;
+font-weight: 100;
+line-height: 30px;
+color: #252725;
+}
+
+p.nicknames {
+font-family:hattori hanzo;
+font-size:1.1em;
+text-shadow: none;
+color: white;
+padding:0 1em 1em 1em;
+margin-left: 1em;
+}
+
+
+blockquote p {
+font-size: 33px;
+font-family: Fjalla One;
+}
+
+blockquote.pull-right {
+
+font-size: 23px;
+font-family: Fjalla One;
+line-height: 50px;
+position: relative;
+right: -50px;
+}
+
+blockquote.pull-left {
+
+font-size: 23px;
+font-family: Fjalla One;
+line-height: 50px;
+position: relative;
+right: 50px;
+}
+
+.small {
+font-size: 20px;
+}
+
+
+.lead {
+font-size:1.3em;
+}
+
+.persons {
+float:left;
+width:20%;
+}
+
+.person-container {
+padding-left:1.5em;
+
+}
+
+.person-container:hover {
+background: rgba(255,64,64,.8);
+border-radius:5px;
+margin: 0 auto;
+}
+
+/*Modal Stuff*/
+
+h2.modal-head {
+font-family: 'Impact Label';
+text-align: center;
+font-size: 50px;
+margin-bottom: .5em;
+}
+
+h4.blueprint-headline {
+font-size:40px;
+margin-left:1.5em;
+background: none;
+}
+
+#btn-show-modal.modal-anchor {
+text-shadow:none;
+color:black;
+}
+
+/*Modal*/
+.modal-sidebar {
+float:right;
+width: 400px;
+height: auto;
+margin: 0 0 1em 1em;
+text-align: center;
+font-family: 'Impact Label';
+background:rgba(140,5,0,.5);
+float:right;
+border: 3px solid #c6c9cc;	
+}
+
+p.modal-graph {
+font-family: 'Lustria';
+font-weight: 600;
+padding: .5em 1em .5em 1em;
+}
+
+/*End Modal Stuff*/
+
+h3 {
+font-family: Fjalla One;
+color: white;
+text-align: center;
+font-size: 7.5em;
+padding: 3% 0 3% 0;
+font-weight: 100;
+text-shadow: 1px 5px 8px #000000;
+font-style: italic;
+margin-bottom:-2em;
+}
+
+
+h3.nicknames {
+font-size: 25px;
+font-family: 'Fjalla One', serif;
+font-weight: 800;
+color: #fafbff;
+padding-right: 1em;
+padding-top:1em;
+text-shadow:none;
+font-style: normal;
+margin:0 auto;
+}
+
+
+h1 {
+font-family: 'Fjalla One', sans-serif;
+font-size: 145px;
+border-bottom: 10px solid white;
+width: 74%;
+}
+
+h4 {
+font-family: 'Fjalla One', sans-serif;
+font-size: 94px;
+color: white;
+padding: .1em;
+font-weight: 100;
+text-shadow: 2px 5px 3px #000000;
+background: #2c3d82;
+/*background:rgba(0,0,128,.5);*/
+width: 72%;
+}
+
+a {
+color: white;
+text-shadow: 2px 5px 3px #000000;
+
+}
+
+a:hover {
+color: #fff;
+text-decoration: none;
+}
+
+
+ul {
+list-style-type: none;
+font-family: 'Fjalla One', sans-serif;
+font-weight: 200;
+}
+
+.lakefront-ul {
+color: #252725;
+opacity: .8;
+
+}
+
+.miller-ul {
+color: #252725;
+opacity: .8;
+}
+
+
+.mkb-ul {
+color: #252725;
+opacity: .8;
+}
+
+.temperance-ul {
+color: #252725;
+opacity: .8;
+}
+
+.pollyanna-ul {
+color: #252725;
+opacity: .8;
+}
+
+li {
+line-height: 37px;
+}
+
+.double-lines {
+width: 50%;
+margin-left: 18em;
+margin-top:25em;
+}
+
+#vert-line {
+color: #303536;
+font-size: 142px;
+position: relative;
+top: 42px;
+
+}
+
+/*#myTimeline {
+width: 1200px;
+overflow-y: hidden;
+margin-bottom: 50px;
+padding-bottom: 10px;
+}
+*/
+
+#row1 {
+margin: 0 auto;
+background: #3B3F46;
+padding-bottom: 11em;
+padding-left: 1em;
+}
+
+
+/*LAKEFRONT*/
+
+#lakefront {
+background: url(../img/lakefront-section.jpg) no-repeat;
+position:relative;
+background-attachment: fixed;	
+background-size:cover;
+overflow: hidden;
+margin-top:-10%;
+width:auto;
+}
+
+.info-l {
+position: relative;
+bottom: 360px;
+left:500px;
+}
+
+
+#lakefront.row {
+padding:24%;
+}
+
+/*MILLERCOORS*/
+
+#millerCoors {
+background: url(../img/miller-section.png) no-repeat;
+position:relative;
+padding: 200px 200px;
+background-attachment: fixed;	
+background-size:cover;
+overflow: hidden;
+}
+
+.info-mc {
+position: relative;
+bottom: 345px;
+right:200px;
+}
+
+#millerCoors.row {
+padding:24%;
+}
+/* MILWAUKEE */
+
+#mkb {
+background: url(../img/mkb-section.png) no-repeat;
+position:relative;
+padding: 200px 200px;
+background-attachment: fixed;	
+background-size:cover;
+overflow: hidden;
+}
+
+
+.info-mk {
+position:relative;
+bottom: 360px;
+left:437px;
+}
+
+#mkb.row {
+padding:24%;
+}
+
+/*TEMPERANCE*/
+
+#temperance {
+background: url(../img/temperance-section.png) no-repeat;
+position:relative;
+padding: 200px 200px;
+background-attachment: fixed;	
+background-size:cover;
+overflow: hidden;
+}	
+
+
+.info-t {
+position:relative;
+bottom: 345px;
+right:200px;
+}
+
+#temperance.row {
+padding:24%;
+}
+
+/* POLLYANNA */
+
+#pollyanna {
+background: url(../img/pollyanna-section.png) no-repeat;
+position:relative;
+padding: 200px 200px;
+background-attachment: fixed;	
+background-size:cover;
+overflow: hidden;
+}
+
+.info-p {
+position:relative;
+bottom: 360px;
+left:420px;
+}
+
+#pollyanna.row {
+padding:24%;
+}
+
+/*----------------------End of Stories-------------------*/
+
+/*Smooth scrolling arrow*/
+.fa-arrow-up {
+position: fixed;
+bottom: 15px;
+right: 0;
+font-size: 50px;
+color: #e7dee3;
+z-index: 1;
+text-shadow:none;
+}
+
+.fa-arrow-up:hover {
+color: #768585;
+}
+
+/*===================End Modal====================*/
+
+
+/*Slideshow*/
+
+  /* Prevents slides from flashing */
+#slides {
+display:none;
+width: 400px;
+float:right;
+position: relative;
+padding-left: 3em;
+right: 4px;
+
+}
+
+a.slidesjs-next.slidesjs-navigation {
+margin-left:18.5em;
+text-shadow:none;
+color:black;
+font-family: Fjalla One;
+} 
+
+a.slidesjs-previous.slidesjs-navigation {
+text-shadow:none;
+color:black;
+font-family: Fjalla One;
+
+}
+
+ul.slidesjs-pagination {
+display:none;
+}
+
+/*=============================End Slideshow=========================*/
+
+/*Slide-up captions*/
+
+h2 {
+font-size: 25px;
+font-family: fjalla one;
+font-weight: 100;
+}
+
+.img-holder {
+height: 375px;
+width: 500px;
+background: transparent;
+overflow: hidden;
+position: relative;
+float: left;
+right: 150px;
+margin-right: -7.8em;
+margin-bottom: .5em;
+}
+
+.text{
+background:rgba(0,0,0,0.5);
+top:380px;
+color:white;
+height:auto;width:inherit;
+position:absolute;
+ 
+-webkit-transition: all .5s ease-out;
+-moz-transition: all .5s ease-out;
+-o-transition: all .5s ease-out;
+transition: all .5s ease-out;
+}
+
+.text h2{
+color:#fff;
+display:block;
+padding:15px;
+text-decoration:none;
+ 
+-webkit-transition: all .4s ease-out;
+-moz-transition: all .4s ease-out;
+-o-transition: all .5s ease-out;
+transition: all .4s ease-out;
+}
+
+.text h2:hover{
+text-decoration:none;
+}
+
+.img-holder:hover .text{
+top:300px;
+}
+

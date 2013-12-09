@@ -1,0 +1,44 @@
+section {
+	margin-top: 20px;
+	padding-top: 20px;
+}
+section.section-break {
+	margin-top: 60px;
+	padding-top: 100px;
+}
+.storytitle {
+	padding-bottom: 20px;
+	text-align: center;
+}
+.storytitle h1 {
+	text-transform: uppercase;
+	margin-bottom:0px;
+}
+p.lead {
+	font-size:24px;
+	line-height:36px;
+}
+blockquote.strong-quote {
+	padding:0;
+	margin:0;
+	border:none;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+blockquote.strong-quote p{
+	font-size:30px;
+	line-height:38px;
+	font-weight: bold;
+}
+.my-background-example {
+	padding: 20px;
+	background-image: url(http://farm9.staticflickr.com/8501/8316081118_da9eb027f8_o.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	-webkit-border-radius: 6px;
+	   -moz-border-radius: 6px;
+	        border-radius: 6px;
+}
+.carousel-caption {
+	position: static;
+}
