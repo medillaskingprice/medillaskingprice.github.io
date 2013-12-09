@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display);
+
 section {
 	margin-top: 20px;
 	padding-top: 20px;
@@ -77,11 +79,24 @@ blockquote.strong-quote {
 		//width:100px;
 	}
 	h1 {
+		font-family: 'Playfair Display', serif;
+		line-height:80px;
 		font-size:80px;
-		font-weight: 900;
+		font-weight:normal; 
 		text-transform: uppercase;
 		text-align:center;
 		color:#000;
+		.title-black, .title-red {
+			display:inline-block;
+			width:100%;
+			text-align:center;
+		}
+		.title-black {
+			color:#000;
+		}
+		.title-red {
+			color:#D12229;
+		}
 	}
 	
 }
@@ -91,72 +106,58 @@ body, html {
 section.panel-nav {
 	margin-top:0px;
 	padding-top:0px;
-	height:100%;
+	
 	margin-bottom:150px;
 	.panels {
 		//min-height:100%;
 		//height:100%;
-		margin-top:57px;
-		.panel {
-			width: 16.6666667%;
-			margin:0;
-			float:left;
-			height:100%;
-			.story-item-container {
-				border: 5px solid #CCC;
-				height:100%;
-				padding:20px;
-				padding-top:100px;
-				background-image: url('http://farm9.staticflickr.com/8501/8316081118_da9eb027f8_o.jpg');
-				background-repeat: no-repeat;
-				background-size: cover;
-				h2 {
-					color:#FFF;
-					font-weight:900;
-					text-shadow: #000 1px 1px 2px;
-					text-transform: uppercase;
-					font-size:24px;
-				}
-			}
-		}
-		.panel:hover {
-			.story-item-container {
-				border: 5px solid #000;
-			}
-		}
-	}
-	.three-up {
+		//margin-top:57px;
 		.span4 {
 			width: 33.3333333%;
 			margin:0;
-			.story-item-container {
+			.panel {
+				//width: 16.6666667%;
+				//width: 33.3333333%;
+				//margin:0;
+				//float:left;
+				background-image: url('http://farm9.staticflickr.com/8501/8316081118_da9eb027f8_o.jpg');
+				background-repeat: no-repeat;
+				background-size: cover;
+				height:300px;
 				border: 5px solid #CCC;
+				//padding:20px;
+				//padding-top:100px;
 			}
 		}
-		.span4:hover {
-			.story-item-container {
-				border: 5px solid #000;
+		.panel {
+			.story-item {
+				height:100%;
+				width:100%;
+				
+				display:table;
+				.story-item-container {
+					width:100%;
+					text-align:center;
+					display:table-cell;
+					vertical-align:middle;
+					h2 {
+						color:#FFF;
+						font-weight:900;
+						text-align:center;
+						text-shadow: #000 1px 1px 2px;
+						text-transform: uppercase;
+						font-size:24px;
+					}
+				}
+
 			}
 		}
-	}
-	.story-item {
-		//width: 33.333333%;
-		width:50%;
-		margin-left:0;
-		background-color:#CCC;
-		.story-item-container {
-			//padding:20px;
-			background-color:#CCC;
-			border: 5px solid #CCC;
-			
-		}
-	}
-	
-	.story-item:hover {
-		.story-item-container {
+		.panel:hover {
 			border: 5px solid #000;
+			.story-item {
+				
+			}
 		}
-		
 	}
 	
 }
