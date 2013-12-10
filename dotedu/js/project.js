@@ -1,8 +1,11 @@
+$(document).ready(function(){
+	$('a').smoothScroll();
+});
 
 
 //ensure the web page (DOM) has loaded
       document.addEventListener("DOMContentLoaded", function () {
-
+		  
 	var pop = Popcorn("#chickens");
 	var chickens_p = $('#chickens').offset();
 	var window_height = $( window ).height();
