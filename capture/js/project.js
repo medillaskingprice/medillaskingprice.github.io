@@ -2,32 +2,33 @@
 
 $(document).ready(function(){
 
-
- console.log('yes');
-  //Vignette tag fade in
+	
+	
+	console.log('capture project file loaded');
+	//Vignette tag fade in
 
   	//CFA tag fade in
-  $('.carousel').on('slid.bs.carousel', function () {
-  	console.log("fade in function called");
-    var firstDiv = $('div.item')[ 5 ];
-     $('.carousel-inner').find(firstDiv);
-      if ($(firstDiv).hasClass('active')){
-         console.log(firstDiv.id);
-         $('#frame6').ready(function(){         
-         	$('#CFAvigTag').fadeTo( 800, 1 );
-          })
-      }
-  });
+	$('.carousel').on('slid.bs.carousel', function () {
+		console.log("fade in function called");
+		var firstDiv = $('div.item')[ 5 ];
+		$('.carousel-inner').find(firstDiv);
+		if ($(firstDiv).hasClass('active')){
+			console.log(firstDiv.id);
+			$('#frame6').ready(function(){         
+				$('#CFAvigTag').fadeTo( 800, 1 );
+			})
+		}
+	});
 
-  	// //Show vignette
+	// //Show vignette
 
-      $('#CFAvigTag').click(showCFAVig);
-      $('#CFAreturn').click(hideCFA);
+	$('#CFAvigTag').click(showCFAVig);
+	$('#CFAreturn').click(hideCFA);
 
-        function showCFAVig(){
-          console.log("showCFAvig function fired");
-          $('#CFAvig').show();
-        }
+	function showCFAVig(){
+		console.log("showCFAvig function fired");
+		$('#CFAvig').show();
+	}
 
   		
   // 		$(function() {
@@ -46,93 +47,89 @@ $(document).ready(function(){
 		// });
   	//}
 
-  	function hideCFA() {
-
-	    $('#CFAvig').hide();
-  	}
+	function hideCFA() {
+		$('#CFAvig').hide();
+	}
 
   	//Hide vignette
 
 
   	//Preservation
 
-  $('.carousel').on('slid.bs.carousel', function () {
-  	console.log("calling function to fade in tag 1")
-    var firstDiv = $('div.item')[ 8 ];
-     $('.carousel-inner').find(firstDiv);
-      if ($(firstDiv).hasClass('active')){
-         console.log(firstDiv.id);
-         $('#frame9').ready(function(){         
-         	$('#planVigTag').fadeTo( 800, 1 );
-          })
-      }
-  })
-
-		$('#planVigTag').click(showInfo);
-
-		function showInfo(){
-			$('#infoVig').show();
+	$('.carousel').on('slid.bs.carousel', function () {
+		console.log("calling function to fade in tag 1")
+		var firstDiv = $('div.item')[ 8 ];
+		$('.carousel-inner').find(firstDiv);
+		if ($(firstDiv).hasClass('active')){
+			console.log(firstDiv.id);
+			$('#frame9').ready(function(){         
+				$('#planVigTag').fadeTo( 800, 1 );
+			})
 		}
+	})
 
-		$('#infoReturn').click(hideInfo);
+	$('#planVigTag').click(showInfo);
 
-		function hideInfo() {
-			console.log("calling function hideInfo");
-			$('#infoVig').hide();
+	function showInfo(){
+		$('#infoVig').show();
+	}
+
+	$('#infoReturn').click(hideInfo);
+
+	function hideInfo() {
+		console.log("calling function hideInfo");
+		$('#infoVig').hide();
+	}
+
+	// //Nixon
+
+	$('.carousel').on('slid.bs.carousel', function () {
+		console.log("calling function tag 2 fade in");
+		var firstDiv = $('div.item')[ 14 ];
+		$('.carousel-inner').find(firstDiv);
+		if ($(firstDiv).hasClass('active')){
+			console.log(firstDiv.id);
+			$('#frame15').ready(function(){         
+				$('#nixonVigTag').fadeTo( 800, 1 );
+			})
 		}
+	})
 
-  // //Nixon
+	$('#nixonVigTag').click(showNixon);
 
-  $('.carousel').on('slid.bs.carousel', function () {
-  	console.log("calling function tag 2 fade in");
-    var firstDiv = $('div.item')[ 14 ];
-     $('.carousel-inner').find(firstDiv);
-      if ($(firstDiv).hasClass('active')){
-         console.log(firstDiv.id);
-         $('#frame15').ready(function(){         
-         	$('#nixonVigTag').fadeTo( 800, 1 );
-          })
-      }
-  })
+	function showNixon(){
+		$('#NixonVig').show();
+	}
 
-    $('#nixonVigTag').click(showNixon);
+	$('#nixonReturn').click(hideNixon);
 
-  	function showNixon(){
-  		$('#NixonVig').show();
-  	}
+	function hideNixon() {
+		$('#NixonVig').hide();
+	}
 
-  	$('#nixonReturn').click(hideNixon);
+	// //Katie Rife
+	$('.carousel').on('slid.bs.carousel', function () {
+		var firstDiv = $('div.item')[ 17 ];
+		$('.carousel-inner').find(firstDiv);
+		if ($(firstDiv).hasClass('active')){
+			console.log(firstDiv.id);
+			$('#frame18').ready(function(){         
+				$('#katieVigTag').fadeTo( 800, 1 );
+			})
+		}
+	})
 
-  	function hideNixon() {
-  		$('#NixonVig').hide();
-  	}
+	$('#katieVigTag').click(showKatie);
 
-  // //Katie Rife
-    $('.carousel').on('slid.bs.carousel', function () {
-    var firstDiv = $('div.item')[ 17 ];
-     $('.carousel-inner').find(firstDiv);
-      if ($(firstDiv).hasClass('active')){
-         console.log(firstDiv.id);
-         $('#frame18').ready(function(){         
-         	$('#katieVigTag').fadeTo( 800, 1 );
-          })
-      }
-  })
+	function showKatie(){
+		$('#KatieVig').show();
+	}
 
-    $('#katieVigTag').click(showKatie);
+	$('#katieReturn').click(hideKatie);
 
-  	function showKatie(){
-  		$('#KatieVig').show();
-  	}
-
-  	$('#katieReturn').click(hideKatie);
-
-  	function hideKatie() {
-
-  		$('#KatieVig').hide();
-
-  	}
-
+	function hideKatie() {
+		$('#KatieVig').hide();
+	}
 
 });
 
