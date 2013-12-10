@@ -1,15 +1,19 @@
 body {min-width: 960px !important;}
 	
-@media(max-width:979px){
-.navbar-fixed-top{margin-bottom: 0p}
-}
 
 #container-id{max-width: 1000px; margin: 0 auto;}
 
 .preview{
 padding-top: 56px;
 }
-
+@media (max-width: 979px) {
+	.preview {
+		padding-top: 0px;
+	}
+	.navbar-fixed-top {
+		margin-bottom: 2px;
+	}
+}
 #play{
 position: relative; 
 background-color:white; 

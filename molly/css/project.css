@@ -553,7 +553,11 @@ margin-top: -264px;
 	
  */
 }
-
+@media (max-width: 979px) {
+	.navbar-fixed-top {
+		margin-bottom: 62px;
+	}
+}
 @media screen and (max-width: 768px){
 	#carousel-wrapper {
 		padding-left: 0;
