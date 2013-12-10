@@ -154,40 +154,94 @@ section.panel-nav {
 			background-image: url('http://farm9.staticflickr.com/8501/8316081118_da9eb027f8_o.jpg');
 			background-repeat: no-repeat;
 			background-size: cover;
+			
 			height:300px;
-			border: 5px solid #CCC;
-			border: 5px solid rgba(0,0,0,0);
+			//border: 5px solid #CCC;
+			//border: 5px solid rgba(0,0,0,0);
 			//padding:20px;
 			//padding-top:100px;
+			border-bottom: 2px solid #CCC;
+			border-left: 2px solid #CCC;
 		}
 		.panel {
-			.story-item {
-				height:100%;
-				width:100%;
-				
-				display:table;
-				.story-item-container {
+			a {
+				.story-item {
+					height:100%;
 					width:100%;
-					text-align:center;
-					display:table-cell;
-					vertical-align:middle;
-					h2 {
-						color:#FFF;
-						font-weight:900;
-						text-align:center;
-						text-shadow: #000 1px 1px 2px;
-						text-transform: uppercase;
-						font-size:24px;
+					background-color:rgba(0,0,0,.50);
+					display:table;
+					.story-item-container {
+						//width:100%;
+						padding:20px;
+						width:50%;
+						//text-align:center;
+						//display:table-cell;
+						//vertical-align:middle;
+						h2 {
+							margin-top:0;
+							color:#CCC;
+							font-weight:300;
+							//text-align:center;
+							//text-shadow: #000 1px 1px 2px;
+							text-transform: uppercase;
+							font-size:32px;
+						}
+						p {
+							color:#FFF;
+							font-weight:300;
+							display:none;
+							//text-shadow: #000 1px 1px 1px;
+							font-size:20px;
+							//margin-left:20px;
+							//margin-right:20px;
+						}
+					}
+
+				}
+			}
+			a:hover {
+				text-decoration:none;
+				.story-item {
+					background-color:rgba(0,0,0,.70);
+					.story-item-container {
+						h2 {
+							color:#FFF;
+						}
+						p {
+							display:block;
+							
+						}
 					}
 				}
-
 			}
+			
 		}
 		.panel:hover {
-			border: 5px solid #000;
+			//border: 5px solid #000;
 			.story-item {
 				
 			}
+		}
+		
+		#feed {
+			background-image: url('../img/teaser/feed.jpg');
+		}
+		#iv {
+			background-image: url('../img/teaser/iv.jpg');
+			
+		}
+		#capture {
+			background-image: url('../img/teaser/capture.jpg');
+		}
+		#dotedu {
+			background-image: url('../img/teaser/dotedu.jpg');
+		}
+		#beer {
+			background-image: url('../img/teaser/beer.jpg');
+		}
+		#molly {
+			background-image: url('../img/teaser/molly.jpg');
+			background-position:center;
 		}
 	}
 	
