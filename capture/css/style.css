@@ -27,6 +27,10 @@ body {
 .glyphicon {
 	z-index: 7;
 }
+.carousel-inner {
+	
+	height:100%;
+}
 
 /*OVERLAY UNDER TEXT ON AVTEs*/
 
