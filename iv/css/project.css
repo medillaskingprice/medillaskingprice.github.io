@@ -327,7 +327,8 @@ blockquote.strong-quote-number {
 .photo-row {
 	margin: 0 auto;
 	clear: both;
-	max-width: 50%;
+	max-width: 100%;
+	text-align:center;
 }
 
 .photo-row:nth-child(2) {

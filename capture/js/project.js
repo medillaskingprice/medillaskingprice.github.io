@@ -85,8 +85,11 @@ $(document).ready(function(){
 
 	$('.carousel').on('slid.bs.carousel', function () {
 		console.log("calling function tag 2 fade in");
+		
 		var firstDiv = $('div.item')[ 14 ];
+		
 		$('.carousel-inner').find(firstDiv);
+		
 		if ($(firstDiv).hasClass('active')){
 			console.log(firstDiv.id);
 			$('#frame15').ready(function(){         
@@ -98,6 +101,9 @@ $(document).ready(function(){
 	$('#nixonVigTag').click(showNixon);
 
 	function showNixon(){
+		// An idea to load only when needed.
+		//$('#NixonVig iframe').attr("src", "http://player.vimeo.com/video/81032724?api=1&amp;player_id=player_17&amp;title=0&amp;byline=0&amp;portrait=0&amp;color=000000");
+		
 		$('#NixonVig').show();
 	}
 
