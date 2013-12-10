@@ -1,0 +1,1 @@
+function jumpTo(e){$("body").animate({scrollTop:$(e).offset().top},800)}$(document).ready(function(){$("#btn-show-modal").click(function(e){e.preventDefault();$("#myModal").modal("show")})});$(function(){$("#slides").slidesjs({})});

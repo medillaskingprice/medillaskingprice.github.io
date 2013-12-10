@@ -11,8 +11,9 @@ p.byline {
 	opacity: 0;
 	text-align: left;
 	padding: 15px;
-	width: 19.5em;
-	height: 19em;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
 }
 
 #facegrid .box .caption p.credit {
@@ -51,11 +52,6 @@ p.byline {
 	opacity: 1;
 }
 
-#ivphoto {
-	text-align:center;
-	padding-bottom:10em;
-}
-
 caption {
 	/*coordinated marking to match cell's padding*/
 	margin-bottom:.5em;
@@ -63,8 +59,11 @@ caption {
 	text-align:center;
 }
 
-.container {
-	/*width: auto; */
+
+body {
+	width:100%;
+	margin:0;
+	padding-top:50px;
 }
 
 section {
@@ -154,7 +153,7 @@ section.section-break {
 
 
 .storytitle {
-	padding-bottom: 1.25em;
+	padding-bottom: 0.75em;
 	text-align: center;
 }
 .storytitle #line1 h1 {
@@ -165,6 +164,9 @@ section.section-break {
 	font-size:6.4em;
 	text-align:center;
 	color:#FFFFFF;
+	letter-spacing:0px;
+	line-height:0.5em;
+	word-spacing:-0.25em;
 }
 
 .storytitle #line2 h1 {
@@ -175,6 +177,9 @@ section.section-break {
 	font-size:6.4em;
 	text-align:center;
 	color:#F79F81;
+	letter-spacing:-0px;
+	line-height:0.5em;
+	word-spacing:-0.25em;
 }
 
 a:link {
@@ -202,7 +207,7 @@ p.lead {
 	font-weight:400;
 	color:#FFFFFF;
 	text-align:left;
-	padding-top:2em;
+	padding-top:-4em;
 }
 
 p.first {
@@ -228,6 +233,8 @@ h2{
 	text-transform:uppercase;
 	text-shadow: 2px 2px #000000;
 	letter-spacing: -5px;
+	line-height:0.8em;
+	word-spacing:-0.25em;
 }
 
 h3{
@@ -308,4 +315,32 @@ blockquote.strong-quote-number {
 }
 .carousel-caption {
 	position: static;
+}
+
+.text {
+	max-width: 660px;
+	margin: 0 auto;
+}
+#facegrid .box {
+	display: inline-block;
+}
+
+.photo-row {
+	margin: 0 auto;
+	clear: both;
+	max-width: 50%;
+}
+
+.photo-row:nth-child(2) {
+	position: relative;
+	top: -10px;
+}
+
+@media screen and (max-width: 600px) {
+	.photo-row {
+		max-width: 100%;
+	}
+	#facegrid .box {
+		width: 100%;
+	}
 }

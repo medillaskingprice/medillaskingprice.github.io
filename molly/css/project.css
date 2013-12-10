@@ -101,7 +101,7 @@ p.attribution {
 }
 
 #finalparallaxbreak {
-    background-image: url('../img/dancesafepara.png');
+    background-image: url('../img/lights1.png');
     background-size: cover;
     background-attachment: fixed;
     padding: 20% 0;
@@ -542,7 +542,7 @@ width: 80%;
 .mdmasymbol{
 position: relative;
 margin-left: 8%;
-margin-top: -235px;
+margin-top: -264px;
 }
 
 /* Media queries */

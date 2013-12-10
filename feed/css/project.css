@@ -8,7 +8,7 @@ video {
 	top:0;
 	left:0;
 	max-width:100%;
-	margin-top:-3%;
+	margin-top:-2%;
 	width:100%;
 }
 .container {
@@ -109,6 +109,7 @@ blockquote{
 }
 .bQuoteAttr{
 	font-size: 24px;
+	text-align: right;
 }
 .belowPhoto{
 	margin-top:2%;
@@ -116,3 +117,33 @@ blockquote{
 .last{
 	margin-bottom:10%;
 }	
+.end{
+	text-align: center;
+}
+#img1{
+	margin-top:2%;
+}
+#img3{
+	margin-top:4%;
+}
+#bqEdit1{
+	margin-top:4%;
+}
+#img5{
+	margin-top:10%;
+}
+#bqEdit2{
+	margin-top:4%;
+}
+#bqEdit3{
+	margin-top:2%;
+}
+#bqEdit4{
+	margin-top:4%;
+}
+#bqEdit5{
+	margin-top:6%;
+}
+#img8{
+	margin-top:10%;
+}

@@ -12,16 +12,64 @@ font-family: Impact Label src: url('Impact Label.ttf');
 
 /*Photos and Videos*/
 
-video {
+#lakefront-video  {
 float: right;
 width:566px;
 height:370px;
-background:transparent url('miller1.jpg') no-repeat 0 0;
 margin-left:1em;  
 padding-bottom: 1em;
+display: block;
+}
+
+#miller-video  {
+float: right;
+width:566px;
+height:370px;
+margin-left:1em;  
+padding-bottom: 1em;
+display: block;
+}
+
+#mkb-video  {
+float: right;
+width:566px;
+height:370px;
+margin-left:1em;  
+padding-bottom: 1em;
+display: block;
+}
+
+#temperance-video  {
+float: right;
+width:566px;
+height:370px;
+margin-left:1em;  
+padding-bottom: 1em;
+display: block;
+}
+
+#pollyanna-video  {
+float: right;
+width:566px;
+height:370px;
+margin-left:1em;  
+padding-bottom: 1em;
+display: block;
+}
+
+#video_background.video {
+float: none;
+width:100%;
+margin:-2em;
+padding:0;
+}
+
+#title-image.row {
+	margin-top:-2em;
 }
 
 /*video#video_background {
+margin-top:-2em;
 position: absolute;
 bottom: 0px; 
 right: 0px; 
@@ -35,10 +83,35 @@ zoom:.5;
 }
 */
 
+
+.hedndek {
+position: absolute;
+}
+
+img.hed {
+position: relative;
+padding-bottom: 0.8em;
+margin-bottom: 4em;
+}
+
+p.dek {
+color: rgba(255,255,255);
+background-color: rgba(255, 255, 255, 0.5);
+position:relative;
+border-radius: 5px;
+width: 50%;
+font-family: fjalla one;
+font-size: 24px;
+left: 26px;
+bottom: 69px;
+padding: 1em 1em 1em 4em;
+}
+
 img.beer-sidebar {
 margin-left:1.5em;
 transition:  2s;
--webkit-transition:  2s;
+-webkit-transition: 2s;
+padding-top:1.4em;
 }
 
 img.beer-sidebar:hover {
@@ -48,7 +121,7 @@ img.beer-sidebar:hover {
 
 img.klisch-mug {
 position: relative;
-top: 216px;
+top: 288px;
 z-index: 1;
 right: -35px;
 }
@@ -56,16 +129,30 @@ right: -35px;
  
 img.mccabe-mug {
 position: relative;
-top: 219px;
+top: 291px;
 z-index: 1;
-left: 371px;
+left: 164px;
 }
 
 img.gilbert-mug {
 position: relative;
-top: 200px;
+top: 299px;
 z-index: 1;
-left: 362px;
+left: 171px;
+}
+
+img.koop-mug {
+position: relative;
+top: 294px;
+z-index: 1;
+right: -93px;
+}
+
+img.brian-mug {
+position: relative;
+z-index: 1;
+top: 292px;
+left: 60px;
 }
 
 
@@ -79,9 +166,10 @@ width: 400px;
 
 .img-circle {
 opacity: .75;
-transition: 0.5s all;
+/*transition: 0.5s all;
 -moz-transition: 0.5s all;
 -webkit-transition: 0.5s all;
+*/
 border: 10px solid #171716;
 -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
@@ -91,8 +179,9 @@ background: white;
 
 .img-circle:hover {
 opacity: 1;
-transform: scale(1.1);
+/*transform: scale(1.1);
 -webkit-transform: scale(1.1);
+*/
 }
 
 /*End Photo and Video*/
@@ -108,6 +197,10 @@ color: #000000;
 padding-top: 3em;
 }
 
+.container-nav {
+padding:0;
+}
+
 .intro-text {
 color: rgb(0, 0, 0);
 background-color: rgba(255, 255, 255, 0.8);
@@ -121,22 +214,23 @@ font-family: fjalla one;
 
 .beerTitle {
 color: rgb(0, 0, 0);
-background-color: rgba(255, 255, 255, 0.8);
-left:738px;
-width: 20%;
-top:346px;
-position:relative;
+/*background-color: rgba(255, 255, 255, 0.2);*/
+width: 50%;
+left:16px;
+top:332px;
+position:absolute;
 }
 
 
 /*Spans*/
 
 span {
-font-size: 50px;
+font-size: 49px;
 }
 
 .span2 {
 float:right;
+padding-top:1em;
 }
 
 .span2 p{
@@ -347,7 +441,7 @@ font-family: Fjalla One;
 color: white;
 text-align: center;
 font-size: 7.5em;
-padding: 3% 0 3% 0;
+padding: 5% 0 3% 0;
 font-weight: 100;
 text-shadow: 1px 5px 8px #000000;
 font-style: italic;
@@ -439,7 +533,6 @@ line-height: 37px;
 .double-lines {
 width: 50%;
 margin-left: 18em;
-margin-top:25em;
 }
 
 #vert-line {
@@ -480,7 +573,7 @@ width:auto;
 
 .info-l {
 position: relative;
-bottom: 360px;
+bottom: 310px;
 left:500px;
 }
 
@@ -502,7 +595,7 @@ overflow: hidden;
 
 .info-mc {
 position: relative;
-bottom: 345px;
+bottom: 310px;
 right:200px;
 }
 
@@ -523,7 +616,7 @@ overflow: hidden;
 
 .info-mk {
 position:relative;
-bottom: 360px;
+bottom: 310px;
 left:437px;
 }
 
@@ -545,7 +638,7 @@ overflow: hidden;
 
 .info-t {
 position:relative;
-bottom: 345px;
+bottom: 310px;
 right:200px;
 }
 
@@ -566,7 +659,7 @@ overflow: hidden;
 
 .info-p {
 position:relative;
-bottom: 360px;
+bottom: 310px;
 left:420px;
 }
 

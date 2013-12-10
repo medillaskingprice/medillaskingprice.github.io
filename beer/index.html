@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Barreling Ahead</title>
+		<title>Story Title Goes Here</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
 		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
@@ -13,11 +13,10 @@
 		<!--Google Fonts-->
 		<link href='http://fonts.googleapis.com/css?family=Lustria' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
-
 	</head>
 	
-
-	<body class="preview" id="top" data-spy="scroll" data-target=".subnav" data-offset="80">
+		<!--Snap Scroll-->
+		<body class="preview" id="top" data-spy="scroll" data-target=".subnav" data-offset="80">
 
 		
 
@@ -35,15 +34,64 @@
 						<span class="title-red">The</span>
 						<span class="title-black">Asking</span>
 						<span class="title-red">Price</span>
+						<span class="title-sub">Culture comes at a cost</span>
 					</a>
 					<div class="nav-collapse collapse" id="main-menu">
 						<ul class="nav nav pull-right" id="main-menu-left">
-							<li><a href="http://theaskingprice.org/feed/">Feed</a></li>
-							<li><a href="http://theaskingprice.org/dotedu/">Dot Edu</a></li>
-							<li><a href="http://theaskingprice.org/capture/">Capture</a></li>
-							<li><a href="http://theaskingprice.org/molly/">Marketing <br/>Molly</a></li>
-							<li><a href="http://theaskingprice.org/iv/">The IV is <br/>Running Dry</a></li>
-							<li class="active"><a href="http://theaskingprice.org/beer/">Barreling<br/>Ahead</a></li>
+							<li>
+								<a href="http://theaskingprice.org/feed/">
+									<div class="navbar-item">
+										<div class="navbar-item-container">
+											Feed
+										</div>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="http://theaskingprice.org/dotedu/">
+									<div class="navbar-item">
+										<div class="navbar-item-container">
+											Dot Edu
+										</div>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="http://theaskingprice.org/capture/">
+									<div class="navbar-item">
+										<div class="navbar-item-container">
+											Capture
+										</div>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="http://theaskingprice.org/molly/">
+									<div class="navbar-item">
+										<div class="navbar-item-container">
+											Marketing <br/>Molly
+										</div>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="http://theaskingprice.org/iv/">
+									<div class="navbar-item">
+										<div class="navbar-item-container">
+											The IV is <br/>Running Dry
+										</div>
+									</div>
+								</a>
+							</li>
+							<li class="active">
+								<a href="http://theaskingprice.org/beer/">
+									<div class="navbar-item">
+										<div class="navbar-item-container">
+											Barreling<br/>Ahead
+										</div>
+									</div>
+								</a>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -51,15 +99,25 @@
 		</div>
 		<!-- END CLASS WEBSITE NAVBAR -->
 	
-	<div class="row">
-		<div class="beerTitle">
-			<img src="img/beerTitle.png">
+	<div class="row" id="title-image">
+		<div class="hedndek">
+			<img class="hed" src="img/BARRELING-TITLE.png">
+			<p class="dek"><span>AMERICA IS DRUNK ON CRAFT BEER.</span> And as a result, any would-be brewer with an ounce of ambition and a bushel of hops can enter the industry for a typical week's salary. Five midwestern brewers at disparate stages of their careers weigh in on the country's growing <strong>LIBATION INFATUATION</strong></p>
 		</div>
-				<video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0"> 
-					<source src="img/title-page.webm"type="video/webm"> 
-					<source src="img/title-page.mp4" type="video/mp4">
-					<source src="img/title-page.ogv" type="video/ogg">
-				</video>
+
+
+
+		<!--<div class="beerTitle">
+			<img src="img/beerTitle.png">
+		</div>-->
+		
+
+
+		<video id="video_background" width="100%" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0"> 
+			<source src="img/title-page.webm"type="video/webm"> 
+			<source src="img/title-page.mp4" type="video/mp4">
+			<source src="img/title-page.ogv" type="video/ogg">
+		</video>
 	</div>
 				
 	
@@ -91,8 +149,13 @@
 	<div class="row craftsmen" id="row1">
 		<h3>- THE CRAFTSMEN -</h3>
 		
-		<img class="klisch-mug" src="img/klisch-mug.png">
-		<img class="mccabe-mug" src="img/mccabe-mug.png">
+		 
+<a href="#russ" onclick="jumpTo('#lakefront')"><img class="klisch-mug" src="img/klisch-mug.png"></a>
+<a href="#jeff" onclick="jumpTo('#millerCoors')"><img class="koop-mug" src="img/koop-mug.png"></a>
+<a href="#jim" onclick="jumpTo('#mkb')"><img class="mccabe-mug" src="img/mccabe-mug.png"></a>
+<a href="#josh" onclick="jumpTo('#temperance')"><img class="gilbert-mug" src="img/gilbert-mug.png">
+<a href="#brian" onclick="jumpTo('#pollyanna')"><img class="brian-mug" src="img/brian-mug.png">
+	 
 			
 
 			<div class="person">
@@ -148,7 +211,7 @@
 						<div class="person-container">
 							<img class="img-circle" src="img/brian-head.png" width="190px">
 								<h3 class="nicknames">The Graduate <br/></h3>
-									<p class="nicknames">He quit his day job to follow his pasison and the recent Siebel Institute graduate’s newly minted brewery looks to corner Chicago’s south suburban market - but will that be enough to warrant his decisions.</p></a>
+									<p class="nicknames">He quit his day job to follow his passion and the recent Siebel Institute graduate’s newly minted brewery looks to corner Chicago’s south suburban market - but will that be enough to warrant his decisions.</p></a>
 						</div>
 				</div>
 			</div>
@@ -178,7 +241,7 @@
 					</div>
 					<div class="span4" id="lakefront-span4">
 						<ul class="lakefront-ul">
-							<li>OPENED: 1933</l1>
+							<li>OPENED: 1987</l1>
 							<li>LOCATIONS: 35 States</l1>
 							<li>BARRELS: 33,000/yr</li>
 							<li>FLAGSHIP: Riverwest Stein</li>
@@ -195,7 +258,8 @@
 						<div class="row">
 							 <img class="beer-sidebar" src="img/riverwest-stein.png" width="70px" height="auto">
 							<div class="span2">
-								<p>This is a quick description of fixed gear This is a quick description of fixed gear This is a quick description of fixed gear This is a quick description of fixed gear</p>
+								<p><strong>RIVERWEST STEIN</strong></p>
+									<p>Rich with German heritage, brewed with a native lager yeast. Its amber hue reveals a malty sweetness with a traditional finish.</p>
 							</div>
 						 </div>
 				 	</div>
@@ -235,7 +299,7 @@
 				<p>New brewers expectations have to be realistic, though. Immediate success isn’t guaranteed and they’re not likely to be the next craft beer billionaire. “You’re running a marathon, you’re not running a sprint,” Klisch says. “Unfortunately, what you have right now is so many people getting into [brewing] and they think ‘I’m going to be at 10,000 barrels in a couple years.’ It took us almost 20 years to get to 10,000 barrels.”</p>
 
 
-					<video controls poster="img/lakefront5.jpg">
+					<video controls poster="img/lakefront5.jpg" id="lakefront-video">
     				<source src="img/russ-tour-sound.mp4" type="video/mp4" />
    					<source src="img/russ-tour-sound.ogv" type="video/ogg" />
     				<source src="img/russ-tour-sound.webm" type="video/webm" />
@@ -281,7 +345,8 @@
 					<div class="row">
 							<img class="beer-sidebar" src="img/blue-moon-bottle.png" width="70px" height="auto">
 						<div class="span2">
-							<p>This is a quick description of fixed gear This is a quick description of fixed gear This is a quick description of fixed gear This is a quick description of fixed gear</p>
+							<p><strong>BLUE MOON</strong></p>
+							<p>A Belgian style wheat ale, features a sweet smoothness that gives way to a citrus tingle. Traditionally served with an orange slice.</p>
 						</div>
 					 </div>
 				 </div>
@@ -325,7 +390,7 @@
  
 			<p>The bottom line is that Tenth and Blake beers sell, the brand’s quarterly growth has been in the double digits recently. Koopmeiners relates his craft line to a study the company did with the University of North Carolina about how people consume beer.</p>
  
-			<video controls poster="img/miller1.png">
+			<video controls poster="img/miller1.png" id="miller-video">
     		<source src="img/PatiVitt-1.mp4" type="video/mp4" />
    			<source src="img/PatiVitt-1.ogv" type="video/ogg" />
     		<source src="img/PatiVitt-1.webm" type="video/webm" />
@@ -378,7 +443,8 @@
 					<div class="row">
 							<img class="beer-sidebar" src="img/louies-bottle.png" width="70px" height="auto">
 						<div class="span2">
-							<p>This is a quick description of fixed gear This is a quick description of fixed gear This is a quick description of fixed gear This is a quick description of fixed gear</p>
+							<p><strong>LOUIE'S DEMISE</strong></p>
+								<p>Smooth amber ale. Brewed with a blend of specialty malts & hops. Named for man who died in a barfight over a woman.</p>
 						</div>
 					 </div>
 				 </div>
@@ -411,7 +477,7 @@
  
 			<p>McCabe’s message doubles as his differentiation from the pack: using bold flavors and unique ingredients to intrigue drinkers. McCabe took his flagship amber ale, Louie’s Demise, and started brewing it with a number of Rishi teas including their Blueberry Rooibos tea. The result was Weekend @ Louie’s, a refreshing beer that has a full-beer flavor but won’t weigh you down on a hot summer day. This winter, Milwaukee Brewing Company is planning a can-only release called Hop Freak, a double IPA infused with Rishi’s jasmine tea. The new beer is a result of brewpub experimentation. Last year at the Milwaukee Ale House, they offered a new IPA every month, and Hop Freak is a combination of three ideas from that experiment. “It’s the creativity in flavor and just going for a true artisan product where we are boldly jumping into flavor opportunities without being cheesy,” McCabe says. “We’ve got an amazing crew of brewers that complement each other very well in the creative realms.”</p>
 
-			<video controls poster="img/mkb-poster.png">
+			<video controls poster="img/mkb-poster.png" id="mkb-video">
     		<source src="img/mkb-barrel-vid.mp4" type="video/mp4" />
    			<source src="img/mkb-barrel-vid.ogv" type="video/ogg" />
     		<source src="img/mkb-barrel-vid.webm" type="video/webm" />
@@ -459,7 +525,8 @@
 					<div class="row">
 							<img class="beer-sidebar" src="img/labeless-bottle.png" width="70px" height="auto">
 						<div class="span2">
-							<p>This is a quick description of fixed gear This is a quick description of fixed gear This is a quick description of fixed gear This is a quick description of fixed gear</p>
+							<p><strong>RESTLESS YEARS</strong></p>
+								<p>Tropical hop aromas reveal a dry spicy finish, not too bitter, a balanced ale with a hop forward profile.</p>
 						</div>
 					 </div>
 				 </div>
@@ -473,7 +540,7 @@
 			<div class="img-holder">
 				<img class="temperance3" src="img/temperance3.png">
 				<div class="text">
-					<h2>Text Goes Here</h2>
+					<h2>Temperance brewer inspecting the run-off from the mash.</h2>
 				</div>
 			</div>	
 
@@ -493,7 +560,7 @@
 
 			<p>That might be what helps Temperance succeed. Josh Barto, a homebewer and brewery navigations specialist at Lakefront Brewery in Milwaukee, Wis., says that just one good beer can’t carry a company. “I think that’s what a lot of micro and craft breweries, those really small guys who are like ‘we make a fantastic red ale, this has got to make us big,’” he says. “And they focus so much, on that they don’t have enough time to really focus and perfect the other beers.” Temperance has developed five recipes within the first year of business; the beers have only been on the market since September.</p>  
 
-			<video controls poster="img/temperance5.jpg">
+			<video controls poster="img/temperance5.jpg" id="temperance-video">
     		<source src="img/cut-down.mp4" type="video/mp4" />
    			<source src="img/cut-down.ogv" type="video/ogg" />
     		<source src="img/cut-down.webm" type="video/webm" />
@@ -541,7 +608,8 @@
 					<div class="row">
 							<img class="beer-sidebar" src="img/labeless-bottle.png" width="70px" height="auto">
 						<div class="span2">
-							<p>This is a quick description of fixed gear This is a quick description of fixed gear This is a quick description of fixed gear This is a quick description of fixed gear</p>
+							<p><strong>THE FULL LEMONTY</strong></p>
+							<p>A golden ale that's crisp and light. A balance between the malts, fruity hops and clean, American yeast.</p>
 						</div>
 					 </div>
 				 </div> 
@@ -597,6 +665,7 @@
 </div>
 <!--END MODAL-->
 			<p>"I think we're definitely going to see barriers to entry growing like craft breweries have grown in the past," says Dr. Bart Watson, the Association’s staff economist. "If the goal of new breweries opening up is to be Sierra Nevada, that's going to be very, very difficult. You're not going to be Sam Adams’ Jim Koch. You're not going to be a billionaire.”</p>  
+
 <div id="slides">
 	<img src="img/pollyanna8.jpg">
     <img src="img/pollyanna1.jpg">

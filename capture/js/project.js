@@ -21,14 +21,14 @@ $(document).ready(function(){
 
   	// //Show vignette
 
-  	$('#CFAvigTag').click(showCFAVig);
-  	$('#CFAreturn').click(hideCFA);
+      $('#CFAvigTag').click(showCFAVig);
+      $('#CFAreturn').click(hideCFA);
 
-  	function showCFAVig(){
+        function showCFAVig(){
+          console.log("showCFAvig function fired");
+          $('#CFAvig').show();
+        }
 
-		 $('#CFAvig').show();
-
-		}
   		
   // 		$(function() {
 		//   $('a[href*=#]:not([href=#])').click(function() {
