@@ -9,8 +9,12 @@ padding-top: 56px;
 		padding-top: 0px;
 	}
 	.navbar-fixed-top {
-		margin-bottom: 20px;
+		margin-bottom: 15px;
 	}
+}
+.titleInfo p {
+	line-height:1em;
+	margin-bottom:.5em;
 }
 video {
 	top:0;
