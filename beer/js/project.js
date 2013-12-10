@@ -15,12 +15,12 @@ $("#btn-show-modal").click(function(e) {
 });
 
 
-
-
 /*SLIDESHOW*/
  $(function(){
       $("#slides").slidesjs({
       });
     }); 
 
+
+$('img#hed1').hide().delay(4000).fadeIn(9000);
 

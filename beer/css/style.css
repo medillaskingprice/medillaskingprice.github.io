@@ -65,46 +65,30 @@ padding:0;
 }
 
 #title-image.row {
-	margin-top:-2em;
-}
-
-/*video#video_background {
 margin-top:-2em;
+}
+
+
+img#hed1 {
 position: absolute;
-bottom: 0px; 
-right: 0px; 
-min-width: 100%; 
-min-height: 100%; 
-width: 900px; 
-height: auto; 
-z-index: -1000; 
-overflow: hidden; 
-zoom:.5;
-}
-*/
-
-
-.hedndek {
-position: absolute;
+display: none;
+right:322px;
+/*background-color: rgba(255, 255, 255, 0.5);*/
 }
 
-img.hed {
-position: relative;
-padding-bottom: 0.8em;
-margin-bottom: 4em;
-}
 
 p.dek {
 color: rgba(255,255,255);
-background-color: rgba(255, 255, 255, 0.5);
 position:relative;
 border-radius: 5px;
-width: 50%;
+margin:0 auto;
+font-size: 23px;
 font-family: fjalla one;
-font-size: 24px;
-left: 26px;
-bottom: 69px;
-padding: 1em 1em 1em 4em;
+text-align: center;
+top:35px;
+left:15px;
+width: 95%;
+margin-bottom: 2em;
 }
 
 img.beer-sidebar {
@@ -117,6 +101,10 @@ padding-top:1.4em;
 img.beer-sidebar:hover {
 -transform:rotate(45deg);
 -webkit-transform:rotate(45deg);
+}
+
+figure#mugs {
+margin:0 auto;
 }
 
 img.klisch-mug {
@@ -212,20 +200,17 @@ margin-left: 3em;
 font-family: fjalla one;
 }
 
-.beerTitle {
-color: rgb(0, 0, 0);
-/*background-color: rgba(255, 255, 255, 0.2);*/
-width: 50%;
-left:16px;
-top:332px;
-position:absolute;
-}
-
 
 /*Spans*/
 
 span {
-font-size: 49px;
+font-size: 90px;
+line-height: 50px;
+
+}
+
+strong {
+	color:#c88751;
 }
 
 .span2 {
@@ -291,7 +276,7 @@ padding-left: 12em;
 #miller-span4 {
 position: relative;
 right: 39px;
-bottom: 3px;
+bottom: -8px;
 }
 
 
@@ -302,7 +287,7 @@ padding-left: 12em;
 #mkb-span4 {
 position: relative;
 right: 38px;
-bottom:4px;
+bottom:-8px;
 }
 
 #temperance-span5 {
@@ -339,7 +324,7 @@ color: #252725;
 
 p.nicknames {
 font-family:hattori hanzo;
-font-size:1.1em;
+font-size:1.2em;
 text-shadow: none;
 color: white;
 padding:0 1em 1em 1em;
@@ -441,10 +426,9 @@ font-family: Fjalla One;
 color: white;
 text-align: center;
 font-size: 7.5em;
-padding: 5% 0 3% 0;
+padding: 5% 0 0 0;
 font-weight: 100;
 text-shadow: 1px 5px 8px #000000;
-font-style: italic;
 margin-bottom:-2em;
 }
 
@@ -454,7 +438,7 @@ font-size: 25px;
 font-family: 'Fjalla One', serif;
 font-weight: 800;
 color: #fafbff;
-padding-right: 1em;
+padding-right: .5em;
 padding-top:1em;
 text-shadow:none;
 font-style: normal;
@@ -468,6 +452,17 @@ font-size: 145px;
 border-bottom: 10px solid white;
 width: 74%;
 }
+
+/*h1.title {
+font-family: 'Fjalla One';
+width: 50%;
+font-size: 300px;
+color: white;
+position: absolute;
+border:none;
+text-align: center;
+}
+*/
 
 h4 {
 font-family: 'Fjalla One', sans-serif;
@@ -723,9 +718,10 @@ display:none;
 /*Slide-up captions*/
 
 h2 {
-font-size: 25px;
-font-family: fjalla one;
-font-weight: 100;
+font-size: 15px;
+font-family: Lustria;
+font-weight: 800;
+text-align: center;
 }
 
 .img-holder {
@@ -741,10 +737,11 @@ margin-bottom: .5em;
 }
 
 .text{
-background:rgba(0,0,0,0.5);
+background:rgba(0,0,0,0.7);
 top:380px;
 color:white;
-height:auto;width:inherit;
+height:auto;
+width:inherit;
 position:absolute;
  
 -webkit-transition: all .5s ease-out;
@@ -756,7 +753,7 @@ transition: all .5s ease-out;
 .text h2{
 color:#fff;
 display:block;
-padding:15px;
+padding:.2em;
 text-decoration:none;
  
 -webkit-transition: all .4s ease-out;
@@ -773,3 +770,10 @@ text-decoration:none;
 top:300px;
 }
 
+/*=====End Captions*/
+
+@media screen and (max-width: 50em) { 
+	header img { 
+		display: none; 
+	}
+	}
