@@ -3,7 +3,10 @@
 $(document).ready(function(){
 
 	
-	
+	$.fn.carousel.defaults = {
+		interval: false, 
+		pause: 'hover'
+	}
 	console.log('capture project file loaded');
 	//Vignette tag fade in
 

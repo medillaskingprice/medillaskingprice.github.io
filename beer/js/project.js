@@ -22,5 +22,5 @@ $("#btn-show-modal").click(function(e) {
     }); 
 
 
-$('img#hed1').hide().delay(4000).fadeIn(9000);
+$('img#hed1').hide().delay(1000).fadeIn(2000);
 
