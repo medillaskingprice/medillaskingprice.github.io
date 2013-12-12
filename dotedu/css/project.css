@@ -1,7 +1,11 @@
 body {min-width: 960px !important;}
 	
 
-#container-id{max-width: 1000px; margin: 0 auto;}
+#container-id{
+	max-width: 1000px;
+	margin: 0 auto;
+	position:relative;
+}
 
 .preview{
 padding-top: 56px;

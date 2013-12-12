@@ -44,5 +44,16 @@ $(document).ready(function(){
 	if( $('#not-mobile').css('display') == 'none' ) {
 		is_mobile = true;      
 	}
+					
+	/* Social Media
+	================================================== */
+	var the_url			= jQuery(location).attr('href'),
+		the_title		= jQuery(document).attr('title'),
+		the_desciption	= jQuery('meta[name=description]').attr("content");
 	
+	jQuery('.share-twitter').attr("href", "https://twitter.com/intent/tweet?text=" + the_title + ": " + the_desciption + "&url=" + the_url + "&via=MedillSchool");
+	jQuery('.share-facebook').attr("href", "http://www.facebook.com/sharer/sharer.php?u=" + the_url);
+	jQuery('.share-googleplus').attr("href", "https://plus.google.com/share?url=" + the_url);
 });
+
+
