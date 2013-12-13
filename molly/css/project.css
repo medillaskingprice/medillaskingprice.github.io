@@ -149,7 +149,7 @@ width: 35%;
 .headerimg{
 position: absolute;
 top: 100px;
-margin-left: 10%;
+
 }
 
 .blackbox{
@@ -545,6 +545,10 @@ margin-left: 8%;
 margin-top: -264px;
 }
 
+footer{
+margin-top: 150px;
+}
+
 /* Media queries */
 
 @media screen and (max-width: 960px) {
@@ -553,15 +557,214 @@ margin-top: -264px;
 	
  */
 }
+
+@media (max-width: 1024px) {
+	
+	.navbar-fixed-top {
+		margin-bottom: 62px;
+	}
+	
+	.hatgirlhex{
+	display: none;
+	}
+	
+	.blurrydance {
+		margin-right: 0px;
+		width: 200px;
+		height: 231px;
+	}
+	.couplehex {
+		width: 200px;
+		height: 231px;
+		margin-left: 0px;
+	}
+	.brashex {
+		height: 308px;
+		width: 266px;
+	}
+	.djmilkhex {
+		margin-left: 0px;
+		width: 200px;
+		height: 231px;
+	}
+	.dotshex {
+		margin-left: 0px;
+		width: 200px;
+		height: 231px;
+	}
+	.TestIt {
+		margin-left: 0px;
+		width: 200px;
+		height: 231px;
+	}
+	.deadmau5 {
+		height: 308px;
+		width: 266px;
+	}
+	.firedancefinal {
+		width: 200px;
+		height: 231px;
+	}
+	.djlights{
+	margin-left: 30%;
+	}
+	
+	.lightdancerhex{
+	margin-left: 30%;
+	}
+	
+	.DanceSafeTent{
+	margin-left: 0px;
+	}
+	
+	.fliershex{
+	margin-left: 0px;
+	}
+	
+	.MIDdancer{
+	margin-left: 0px;
+	}
+	.brashex, .turtleguy, .mdmahex, .trippinghex, .djlights, .charthex, .lightdancerhex, .DanceSafeTent, .MIDdancer, .Swoonhex  {
+		width: 200px;
+		height: 231px;
+	}
+	.fliershex, .MIDdancer, .trippinghex, .charthex, .mdmahex {
+		width: 300px;
+		height: 347px;
+	}
+	.deadmau5, .blurrydance, .dotshex, .brashex, .firedancefinal {
+		height: 308px;
+		width: 266px;
+	}
+
+}
+
 @media (max-width: 979px) {
 	.navbar-fixed-top {
 		margin-bottom: 62px;
 	}
 }
+
 @media screen and (max-width: 768px){
+
+	.smlhex, .bighex{
+	display: none;
+	}
+
+	p.deck{
+	top: 53%;
+	}
+}
+
+@media screen and (max-width: 640px){
 	#carousel-wrapper {
 		padding-left: 0;
 		width: 100%
+	}
+	.Carissaquote {
+	margin-top: 6%;
+	margin-left: 0;
+	}
+	#leadtext, #section2, #section3, #sciencetext, #theroad, #DEA, #users, #EDMScene {
+		padding-left:10px;
+		padding-right:10px;
+	}
+	.headerimg{
+	margin-left: 0px;
+	width: 585px;
+	height: 260px;
+	}
+	
+	.mdmasymbol{
+	margin-left: 4%;
+	margin-top: -258px;	
+	max-width:96%;
+	}
+	
+	p.deck{
+	margin-left: 4%;
+	top: 50%;
+	font-size: 1em;
+	}
+	
+	.hatgirlhex{
+	display: none;
+	}
+	
+	#parallaxbreak1{
+	display: none;
+	}
+	
+	.blackbox{
+	height: 700px;
+	}
+	
+	.mdmahex{
+	margin-top: -75px;
+	}
+	
+	.blurrydance{
+	display: none;
+	}
+
+	#scienceblockquote{
+	display: none;
+	}
+	
+	.trippinghex{
+	margin-top: 0px;
+	}
+	
+	.lightdancerhex{
+	margin-bottom: 20px;
+	}
+	
+	video{
+	margin-bottom: 0px;
+	}
+	
+	.dotshex{
+	margin-top: 0px;
+	}
+
+	#TestVid{
+	display: none;
+	}
+	
+	.DanceSafeTent{
+	margin-top: 0px;
+	}
+	
+	#Rileyquote{
+	display: none;
+	}
+	
+	.fliershex{
+	margin-bottom: 20px;
+	}
+	
+	.couplehex{
+	display: none;
+	}
+	
+	.brashex{
+	display: none;
+	}
+	
+	.Swoonhex{
+	display: none;
+	}
+	
+	.MIDdancer{
+	display: none;
+	}
+	
+	#finalquote{
+	display: none;
+	}
+	
+	.djmilkhex{
+	margin-top: 0px;
 	}
 }
 
@@ -574,8 +777,150 @@ margin-top: -264px;
 		display: none;
 	}
 	
-	p.deck{
-		font-size: 1em;	
+	.headerimg{
+	margin-left: 0px;
+	top: 50px;
+	width: 200px;
+	height: 100px;
 	}
 	
+	.blackbox{
+	height: 320px;
+	}
+	
+	p.deck{
+		font-size: .5em;
+		line-height: 20px;
+		top: 55%;
+		margin-left: 4%;	
+	}
+	
+	#leadtext{
+		margin-top: 0px;
+		padding-top: 0px;2
+	}
+	
+	.mdmasymbol{
+	margin-left: 4%;
+	margin-top: -220px;
+	}
+	
+	blockquote.strong-quote{
+		font-size: .5em;
+		margin-bottom: 30px;
+	}
+	
+	blockquote.strong-quote p{
+		line-height: 25px;
+	}
+	
+	p{
+		font-size: 1em;
+		line-height: 25px;
+	}
+	
+	p.attribution{
+		font-size: 1em;
+	}
+	
+	p.lead{
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 25px;
+	}
+	
+	video{
+		margin-bottom: none;
+	}
+
+	.carousel-caption h4{
+	font-size: 1em;
+	}
+
+	.carousel-caption p{
+	font-size: .75em;
+	line-height: 20px;
+	}
+	
+	.Carissaquote{
+	margin-top: 0px;
+	margin-left: 0px;
+	}
+	
+	.Carissaquote p{
+	line-height: 25px;	
+	}
+	
+	#scienceblockquote{
+	margin-top: 0px;
+	margin-left: 0px;
+	}
+	
+	#scienceblockquote p{
+	line-height: 25px;
+	}
+	
+	#parallaxbreak6{
+	overflow: inherit;
+	margin-top: 80px;
+	}
+	
+	#Doblinquote {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	}
+	
+	#Doblinquote p{
+	line-height: 25px;
+	}
+	
+	#Rileyquote{
+	margin-top: 0px;
+	margin-left: 0px;
+	}
+	
+	#Rileyquote p{
+	line-height: 25px;
+	}
+	
+	#finalquote {
+	margin-left: 0px;
+	margin-top: 0px;
+	}
+	
+	#finalquote p{
+	line-height: 25px;
+	}
+}
+
+#video_background {
+	object-fit: contain;
+}
+section {
+	overflow:hidden;
+}
+#parallaxbreak6, #TestVid, #lightsvideo {
+	overflow:visible;
+	margin-bottom: 10px;
+}
+
+.outerdeck {
+
+top: -0;
+opacity: 1;
+}
+@media (min-width: 980px) {
+	.preview {
+		padding-top: 0px;
+	}
+}
+@media (max-width: 979px) {
+	.navbar-fixed-top {
+	margin-bottom: 0px;
+	}
+}
+#home {
+	padding-top:0px;
+	margin-top:0px;
 }

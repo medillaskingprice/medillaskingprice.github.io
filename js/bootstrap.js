@@ -35,6 +35,7 @@ ga('create', 'UA-27443321-2', 'theaskingprice.org');
 ga('send', 'pageview');
 
 
+
 $(document).ready(function(){
 	
 	/* IS IT MOBILE
