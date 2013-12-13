@@ -1,11 +1,5 @@
-body {min-width: 960px !important;}
-	
 
-#container-id{
-	max-width: 1000px;
-	margin: 0 auto;
-	position:relative;
-}
+	
 
 .preview{
 padding-top: 56px;
@@ -18,6 +12,16 @@ padding-top: 56px;
 		margin-bottom: 2px;
 	}
 }
+body {min-width: 960px !important;}
+	
+
+
+#container-id{max-width: 1000px; margin: 0 auto;}
+
+.preview{
+padding-top: 56px;
+}
+
 #play{
 position: relative; 
 background-color:white; 

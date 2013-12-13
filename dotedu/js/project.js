@@ -1,5 +1,6 @@
-$(document).ready(function(){
-	$('a').smoothScroll();
+
+$(document).ready(function() {
+    $('a').smoothScroll();
 });
 
 //ensure the web page (DOM) has loaded
@@ -88,24 +89,13 @@ $(document).ready(function(){
 //  						})
 //  						}
 //
-						var video_width = $("#container-id video").width();
-						var video_height = $("#container-id video").height();
-						
-						
-						$('#yep').css({
-							top: "50%" ,
-							left: (video_width/2) - ($("#yep").width() / 2) + "px",
-							//'margin-top': '260px',
-							//'margin-left': '300px'
-						});
-						/*
+          			
           				$('#yep').css({
  							top: chickens_p.top + 'px',
  							left: chickens_p.left + 'px',
- 							//'margin-top': '260px',
- 							//'margin-left': '300px'
+ 							'margin-top': '260px',
+ 							'margin-left': '300px'
  						});
-						*/
           			$("#yep").click(function(){
 						//create play video at specified time
 							pop.play( 28.5 );
